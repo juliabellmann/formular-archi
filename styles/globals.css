@@ -101,6 +101,13 @@ input {
   
 }
 
+.objektbeschreibung-beschreibung div {
+  /* width: 60%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
 .objektbeschreibung div{
   display: flex;
   flex-direction: row;

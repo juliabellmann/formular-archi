@@ -1,3 +1,11 @@
+
+const priorityOptions = [
+    { id: "default", value: "", label: "Please select a priority" },
+    { id: "priority1", value: "High", label: "High" },
+    { id: "priority2", value: "Medium", label: "Medium" },
+    { id: "priority3", value: "Low", label: "Low" },
+  ];
+
 export default function Form()
 {
     return (
@@ -228,27 +236,27 @@ export default function Form()
 
                     </div>
 
-                    <div className="objektbeschreibung">
+                    <div className="objektbeschreibung-beschreibung">
                         <h4>Beschreibung</h4>
 
                         <div>
                             <label for="allg-infos">Allgemeine Objektinformationen: </label>
-                            <textarea rows="15" cols="50" id="allg-infos" name="allg-infos" className="textarea-margin" placeholder="zusätzliche Objektinformationen. Siehe auch nebenstehender Beispieltext." ></textarea>
+                            <textarea rows="15" cols="80" id="allg-infos" name="allg-infos" className="textarea-margin" placeholder="zusätzliche Objektinformationen. Siehe auch nebenstehender Beispieltext." ></textarea>
                         </div>
                         
                         <div>
                             <label for="baukonstruktion">Baukonstruktion: </label>
-                            <textarea rows="15" cols="50" id="baukonstruktion" name="baukonstruktion" className="textarea-margin"  placeholder="zusätzliche Informationen zur Baukonstruktion als Ergänzung zur Beschreibung im Tabellenblatt &quot;Kosten DIN 276&quot; Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
+                            <textarea rows="15" cols="80" id="baukonstruktion" name="baukonstruktion" className="textarea-margin"  placeholder="zusätzliche Informationen zur Baukonstruktion als Ergänzung zur Beschreibung im Tabellenblatt &quot;Kosten DIN 276&quot; Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
                         </div>
 
                         <div>
                             <label for="techn-anlagen">Technische Anlagen: </label>
-                            <textarea rows="15" cols="50" id="techn-anlagen" name="techn-anlagen" className="textarea-margin"  placeholder="zzusätzliche Informationen zur Baukonstruktion als Ergänzung zur Beschreibung im Tabellenblatt &quot;Kosten DIN 276&quot; Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
+                            <textarea rows="15" cols="80" id="techn-anlagen" name="techn-anlagen" className="textarea-margin"  placeholder="zzusätzliche Informationen zur Baukonstruktion als Ergänzung zur Beschreibung im Tabellenblatt &quot;Kosten DIN 276&quot; Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
                         </div>
 
                         <div>
                             <label for="obj-beschr-sonstiges">Sonstiges: </label>
-                            <textarea rows="15" cols="50" id="obj-beschr-sonstiges" name="obj-beschr-sonstiges" className="textarea-margin"  placeholder="zusätzliche interessante Informationen zum Objekt Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
+                            <textarea rows="15" cols="80" id="obj-beschr-sonstiges" name="obj-beschr-sonstiges" className="textarea-margin"  placeholder="zusätzliche interessante Informationen zum Objekt Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
                         </div>
 
                     </div>
