@@ -25,9 +25,10 @@ body {
 
 :root {
   --text-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  --color-bg: #fafcfd;
+  --color-bg: #fff;
   --color-txt: #000;
   --primary: #004a99;
+  --secondary: #C5B091;
 }
 
 
@@ -40,6 +41,7 @@ h3 {
 }
 
 body {
+  font-family: var(--text-font);
   background-color: var(--color-bg);
   color: var(--color-txt);
   text-align: center;
@@ -137,4 +139,24 @@ input {
 
 .kosteneinfluesse input {
   width: 2rem;
+}
+
+fieldset {
+  background-color: #fafcfd;
+}
+
+.button {
+  background-color: var(--secondary);
+  color: var(--color-bg);
+
+  padding: 1rem 5rem;
+  margin: 1rem;
+
+}
+
+.button:hover {
+  background-color: var(--color-bg);
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+
 }

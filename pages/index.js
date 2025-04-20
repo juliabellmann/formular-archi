@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import Form from "@/components/Form";
+import Form from "@/components/Formarchi";
+import Login from "@/components/Login";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,7 +15,8 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <>
-      <Form></Form>
+      <Login></Login>
+      {/* <Form></Form> */}
     </>
   );
 }
