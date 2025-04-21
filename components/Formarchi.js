@@ -310,29 +310,29 @@ export default function Formarchi()
                     </div>
 
                     <h3>Standard:</h3>
-                    <div className="kosteneinfluesse">
+                    <div className="kosteneinfluessea">
 
-                    <div>
                         <div>
-                            <input type="radio" id="standard-schwach" name="standard" value="einfach" />
-                            <label for="standard">einfach</label>
+                            <div>
+                                <input type="radio" id="standard-schwach" name="standard" value="einfach" />
+                                <label for="standard">einfach</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="standard-mittel" name="standard" value="mittel" />
+                                <label for="standard">mittel</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="standard-hoch" name="standard" value="hoch" />
+                                <label for="standard">hoch</label>
+                            </div>
                         </div>
-                        <div>
-                            <input type="radio" id="standard-mittel" name="standard" value="mittel" />
-                            <label for="standard">mittel</label>
-                        </div>
-                        <div>
-                            <input type="radio" id="standard-hoch" name="standard" value="hoch" />
-                            <label for="standard">hoch</label>
-                        </div>
-                    </div>
 
-                    <h3>Grundstück:</h3>
-                    <p>Beschreibung der Homogenbereiche für das Gewerk Erdarbeiten. Die Informationen können auch als separate Datei mitgeliefert werden (z.B. Geotechnischer Bericht)</p>
-                    <div>
-                        <label for="kosteneinfluss-grundstueck">Homogenbereiche (Gewerk, Erdarbeiten): </label>
-                        <textarea rows="15" cols="50" id="kosteneinfluss-grundstueck" name="kosteneinfluss-grundstueck" className="textarea-margin"  placeholder="zusätzliche interessante Informationen zum Objekt Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
-                    </div>
+                        <h3>Grundstück:</h3>
+                        <p>Beschreibung der Homogenbereiche für das Gewerk Erdarbeiten. Die Informationen können auch als separate Datei mitgeliefert werden (z.B. Geotechnischer Bericht)</p>
+                        <div className="flex flex-column">
+                            <label for="kosteneinfluss-grundstueck">Homogenbereiche (Gewerk, Erdarbeiten): </label>
+                            <textarea rows="15" cols="50" id="kosteneinfluss-grundstueck" name="kosteneinfluss-grundstueck" className="textarea-margin"  placeholder="zusätzliche interessante Informationen zum Objekt Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
+                        </div>
 
                     </div>
 
@@ -386,6 +386,26 @@ export default function Formarchi()
                     {/* <p>Tabelle</p> */}
 
                 </fieldset>
+
+                <fieldset>
+                    <legend><h2>5. Kosten nach DIN 276: 2018/12 / Beschreibung</h2></legend>
+                    {/* <p>Tabelle</p> */}
+
+                </fieldset>
+                <fieldset>
+                    <legend><h2>6. Weitere Projektangaben</h2></legend>
+                    {/* <p>Tabelle</p> */}
+
+                </fieldset>
+
+                <fieldset>
+                    <legend><h2>Hochladen von Unterlagen</h2></legend>
+                {/* Upload Dateien */}
+
+                </fieldset>
+
+                <button href="#" className="button">Speichern</button>
+                <button href="#" className="button">Unterlagen an BKI senden</button>
 
             </form>
         
