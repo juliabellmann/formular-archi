@@ -63,12 +63,14 @@ main {
 
 form {
   /* border: #00e723 1px solid; */
+  /* breite des gesamten Formulars */
   width: 1000px;
   /* min-width: 1200px; */
   /* padding: 5rem; */
 }
 
 fieldset{
+  /* fieldsets Inhalt zentrieren */
   border: #004a99 1px solid;
   display: flex;
   flex-direction: column;
@@ -79,32 +81,96 @@ fieldset{
   margin: 2rem 0;
 }
 
-input {
-  width: 50%;
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.spacebetween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.spacearound {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.spacebetween input {
+  width: 70%;
+}
+.spacearound input {
+  width: 40%;
+}
+
 .container {
+  /* Container Breite */
   /* border: #000 1px solid; */
   width: 700px;
-  padding: 1rem;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */  
+  /* padding: 1rem; */
+
 }
 
 .container div{
   /* border: #c71414 1px solid; */
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  
+  /* breite im container */
+  /* width: 100%; */
+  /* display: flex;
+  flex-direction: row; */
+  /* justify-content: space-between; */
   align-items: center;
   padding: 0.3rem;
+}
+.bodenklasse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+
+.besondereauflagen {
+  /* border: #c71414 1px solid; */
+
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
+}
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  /* align-items: start; */
+}
+
+.besondereauflagen div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* width: 40%; */
+}
+
+.besondereauflagen div div {
+  display: flex;
+  flex-direction: row;
 }
 
 .objektbeschreibung {
   width: 60%;
   
+}
+
+select {
+  height: 2rem;
+  width: 4rem;
 }
 
 .objektbeschreibung-beschreibung div {

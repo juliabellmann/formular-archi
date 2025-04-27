@@ -17,29 +17,29 @@ export default function Formarchi()
                 <fieldset>
 
                     <legend><h2>1. Allgemeine Angaben</h2></legend>
-                    <div className="container">{/* container für Adresse */}
+                    <div className="container flex-column">{/* container für Adresse */}
                         <h4>Objektstandort</h4>
-                        <div>
+                        <div className="spacebetween">
                             <label for="objektbez">Objektbezeichnung: </label>
                             <input type="text" id="objektbez" name="objektbez" placeholder="Objektbezeichnung / Art der Nutzung" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="standort">Standort: </label>
                             <input type="text" id="standort" name="standort" placeholder="Standort des Objekts" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="strasse">Straße, Nr.: </label>
                             <input type="text" id="strasse" name="strasse" placeholder="Straße und Hausnummer des Objekts" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="landkreis">Landkreis: </label>
                             <input type="text" id="landkreis" name="landkreis" placeholder="Landkreis des Objekts" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="bundesland">Bundesland: </label>
                             <input type="text" id="bundesland" name="bundesland" placeholder="Bundesland des Objekts" />
                         </div>
@@ -47,22 +47,22 @@ export default function Formarchi()
 
                     <div className="container">{/* Container Bauzeiten */}
                         <h4>Bauzeiten</h4>
-                        <div>
+                        <div className="spacebetween">
                             <label for="planungsbeginn">Planungsbeginn: </label>
                             <input type="text" id="planungsbeginn" name="planungsbeginn" placeholder="Planungsbeginn des Objekts" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="vergabe">Haupt-/Rohbauvergabe: </label>
                             <input type="text" id="vergabe" name="vergabe" placeholder="Haupt-/Rohbauvergabe" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="baubeginn">Baubeginn: </label>
                             <input type="text" id="baubeginn" name="baubeginn" placeholder="Baubeginn" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="bauende">Bauende: </label>
                             <input type="text" id="bauende" name="bauende" placeholder="Bauende" />
                         </div>
@@ -71,22 +71,22 @@ export default function Formarchi()
                     <div className="container">{/* Adressen Planer & Co */}
                         <h4>Architekt*in / Planer*in</h4>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="archi-name">Architekt*in / Planer*in: </label>
                             <input type="text" id="archi-name" name="archi-name" placeholder="Architekt*in / Planer*in" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="archi-strasse">Straße, Nr.: </label>
                             <input type="text" id="archi-strasse" name="archi-strasse" placeholder="Straße und Hausnummer" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="archi-ort">PLZ & Ort: </label>
                             <input type="text" id="archi-ort" name="archi-ort" placeholder="PLZ & Ort" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="archi-web">Homepage</label>
                             <input type="text" id="archi-web" name="archi-web" placeholder="Webseite" />
                         </div>
@@ -96,17 +96,17 @@ export default function Formarchi()
                     <div className="container">{/* Bauherr */}
                         <h4>Bauherr*in</h4>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="bauherr-name">Bauherr*in: </label>
                             <input type="text" id="bauherr-name" name="bauherr-name" placeholder="Bauherr*in" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="bauherr-strasse">Straße, Nr.: </label>
                             <input type="text" id="bauherr-strasse" name="bauherr-strasse" placeholder="Straße und Hausnummer" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="bauherr-ort">PLZ & Ort: </label>
                             <input type="text" id="bauherr-ort" name="bauherr-ort" placeholder="PLZ & Ort" />
                         </div>
@@ -116,22 +116,22 @@ export default function Formarchi()
                     <div className="container">{/* Fotograf */}
                         <h4>Fotograf*in</h4>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="fotograf-name">Fotograf*in: </label>
                             <input type="text" id="fotograf-name" name="fotograf-name" placeholder="Fotograf*in" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="fotograf-strasse">Straße, Nr.: </label>
                             <input type="text" id="fotograf-strasse" name="fotograf-strasse" placeholder="Straße und Hausnummer" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="fotograf-ort">PLZ & Ort: </label>
                             <input type="text" id="fotograf-ort" name="fotograf-ort" placeholder="PLZ & Ort" />
                         </div>
                         
-                        <div>
+                        <div className="spacebetween">
                             <label for="fotograf-web">Homepage</label>
                             <input type="text" id="fotograf-web" name="fotograf-web" placeholder="Webseite" />
                         </div>
@@ -142,39 +142,39 @@ export default function Formarchi()
                     <div className="container">{/* Container Nutzeinheiten */}
                         <h4>Nutzeinheiten</h4>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="anz-buero">Bürogebäude: </label>
                             <input type="text" id="anz-buero" name="anz-buero" placeholder="Anzahl Arbeitsplätze" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="anz-institut">Institutsgebäde: </label>
                             <input type="text" id="anz-institut" name="anz-institut" placeholder="Anzahl Arbeitsplätze" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="anz-krankenhaus">Krankenhaus: </label>
                             <input type="text" id="anz-krankenhaus" name="anz-krankenhaus" placeholder="Anzahl Betten" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="anz-pflegeheim">Pflegeheim: </label>
                             <input type="text" id="anz-pflegeheim" name="anz-pflegeheim" placeholder="Anzahl Betten" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="anz-schule">Schule: </label>
                             <input type="text" id="anz-schule" name="anz-schule" placeholder="Anzahl Klassen/Schüler" />
                         </div>
 
-                        <div>
+                        <div className="spacebetween">
                             <label for="anz-kindergarten">Kindergarten: </label>
                             <input type="text" id="anz-kindergarten" name="anz-kindergarten" placeholder="Anzahl Gruppen/Kinder" />
                         </div>
 
-                        <div>
+                        <div className="spacearound">
                             <input type="text" id="sonstiges" name="sonstiges" placeholder="sonstiges" />
-                            Anzahl: <input type="text" id="anz-sonstiges" name="anz-sonstiges" placeholder="Anzahl Gruppen/Kinder" />
+                            <p>Anzahl: </p><input type="text" id="anz-sonstiges" name="anz-sonstiges" placeholder="Anzahl Gruppen/Kinder" />
                         </div>
                     </div>
 
@@ -310,8 +310,8 @@ export default function Formarchi()
                     </div>
 
                     <h3>Standard:</h3>
-                    <div className="kosteneinfluessea">
-
+                    <div className="kosteneinfluesse">
+                        {/* <p>Beschr.</p> */}
                         <div>
                             <div>
                                 <input type="radio" id="standard-schwach" name="standard" value="einfach" />
@@ -326,20 +326,21 @@ export default function Formarchi()
                                 <label for="standard">hoch</label>
                             </div>
                         </div>
+                    </div> 
 
                         <h3>Grundstück:</h3>
                         <p>Beschreibung der Homogenbereiche für das Gewerk Erdarbeiten. Die Informationen können auch als separate Datei mitgeliefert werden (z.B. Geotechnischer Bericht)</p>
-                        <div className="flex flex-column">
+                        <div className="flex-column">
                             <label for="kosteneinfluss-grundstueck">Homogenbereiche (Gewerk, Erdarbeiten): </label>
-                            <textarea rows="15" cols="50" id="kosteneinfluss-grundstueck" name="kosteneinfluss-grundstueck" className="textarea-margin"  placeholder="zusätzliche interessante Informationen zum Objekt Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
+                            <textarea rows="15" cols="80" id="kosteneinfluss-grundstueck" name="kosteneinfluss-grundstueck" className="textarea-margin"  placeholder="zusätzliche interessante Informationen zum Objekt Siehe auch nebenstehender Beispieltext. Die Informationen können auch als separate Dateien mitgeliefert werden." ></textarea>
                         </div>
 
-                    </div>
 
                     <h3>Bodenklasse</h3>
-                    <div>
+                    <div className="bodenklasse">
                         <p>von</p>
-                        <select name="Bodenklasse" required>
+                        <select name="bodenklasse" required>
+                            <option> - </option>
                             <option>BK1</option>
                             <option>BK2</option>
                             <option>BK3</option>
@@ -349,7 +350,8 @@ export default function Formarchi()
                             <option>BK7</option>
                         </select>
                         <p>bis</p>
-                        <select name="Bodenklasse" required>
+                        <select name="bodenklasse" required>
+                            <option> - </option>
                             <option>BK1</option>
                             <option>BK2</option>
                             <option>BK3</option>
@@ -377,6 +379,72 @@ export default function Formarchi()
                             </div>
                         </div>
                     </div>
+
+                    <h3>Bauraum:</h3>
+                    <div className="kosteneinfluesse">
+                        <div>
+                            <div>
+                                <input type="radio" id="bauraum-frei" name="bauraum" value="frei" />
+                                <label for="bauraum">frei</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="bauraum-beengt" name="bauraum" value="beengt" />
+                                <label for="bauraum">beengt</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="bauraum-bauluecke" name="bauraum" value="bauluecke" />
+                                <label for="bauraum">Baulücke</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Besondere Auflagen:</h3>
+                    <div className="besondereauflagen">
+
+                        <div>
+                            <div>
+                                <input type="checkbox" name="besauflagen1" id="besauflagen1" />
+                                <label for="besauflagen1">Denkmalschutz</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="besauflagen2" id="besauflagen2" />
+                                <label for="besauflagen2">Brandschutz</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="besauflagen3" id="besauflagen3" />
+                                <label for="besauflagen3">Wärmeschutz</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="besauflagen7" id="besauflagen7" />
+                                <input type="text"></input>
+                            </div>
+                        </div>
+
+                    <div>
+                        <div>
+                            <input type="checkbox" name="besauflagen4" id="besauflagen4" />
+                            <label for="besauflagen4">Gestaltungssatzung</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="besauflagen5" id="besauflagen5" />
+                            <label for="besauflagen5">Schallschutz</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="besauflagen6" id="besauflagen6" />
+                            <label for="besauflagen6">Emissionsschutz</label>
+                        </div>
+                    </div>
+
+
+
+
+                    </div>
+
 
 
                 </fieldset>

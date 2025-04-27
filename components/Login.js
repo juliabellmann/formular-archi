@@ -6,10 +6,10 @@ export default function Login()
     return (
         <>
         <h1>Login Bereich</h1>
-            <StyledLogin>
-                <StyledFieldet className="container-login">
+            <form>
+                <fieldset className="">
                     <h2>Login</h2>
-                    <StyledFlexLeft>
+                    <div className="container-login">
 
                         <StyledLabel for="email-login">E-Mail: </StyledLabel>
                         <StyledInput type="text" id="email-login" name="email-login" placeholder="E-Mail *" required />
@@ -30,30 +30,14 @@ export default function Login()
                         <StyledInput type="text" id="password-neuernutzer" name="password-neuernutzer" placeholder="Passwort *" required />
 
                         <StyledBtn href="#" className="button">Jetzt Konto anlegen</StyledBtn>
-                    </StyledFlexLeft>
+                    </div>
 
-                </StyledFieldet>
-            </StyledLogin>
+                </fieldset>
+            </form>
 
         </>
     )
 }
-
-const StyledLogin = styled.form`
-    /* margin-top: 10%; */
-`;
-
-const StyledFieldet = styled.fieldset`
-    /* background-color: blue; */
-    /* display: flex; */
-    /* border: 1px solid red; */
-`;
-
-const StyledFlexLeft = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-`;
 
 const StyledLabel = styled.label`
     margin-top: 1rem;
