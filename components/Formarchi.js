@@ -179,6 +179,7 @@ export default function Formarchi()
                     </div>
 
                 </fieldset>
+                                <button href="#" className="button">Zwischenspeichern</button>
 
                 <fieldset>
 
@@ -264,7 +265,7 @@ export default function Formarchi()
                     </div>
 
                 </fieldset>
-
+                <button href="#" className="button">Zwischenspeichern</button>
                 <fieldset>
                     <legend><h2>3. Kosteneinflüsse</h2></legend>
                     
@@ -448,31 +449,35 @@ export default function Formarchi()
 
 
                 </fieldset>
-
+                <button href="#" className="button">Zwischenspeichern</button>
                 <fieldset>
                     <legend><h2>4. Flächen und Rauminhalte DIN 277-1: 2016-01</h2></legend>
                     {/* <p>Tabelle</p> */}
 
                 </fieldset>
-
+                <button href="#" className="button">Zwischenspeichern</button>
                 <fieldset>
                     <legend><h2>5. Kosten nach DIN 276: 2018/12 / Beschreibung</h2></legend>
                     {/* <p>Tabelle</p> */}
 
                 </fieldset>
+                                <button href="#" className="button">Zwischenspeichern</button>
                 <fieldset>
                     <legend><h2>6. Weitere Projektangaben</h2></legend>
                     {/* <p>Tabelle</p> */}
 
                 </fieldset>
 
+                                <button href="#" className="button">Zwischenspeichern</button>
                 <fieldset>
                     <legend><h2>Hochladen von Unterlagen</h2></legend>
                 {/* Upload Dateien */}
+                <p>Hochladen von Zeichnungen inkl. PDF als ZIP-Datei: <a>hier hochladen</a></p>
+                <p>Hochladen von Unterlagen zur Flächenberechnung: <a>hier hochladen</a></p>
 
                 </fieldset>
 
-                <button href="#" className="button">Speichern</button>
+                <button href="#" className="button">Zwischenspeichern</button>
                 <button href="#" className="button">Unterlagen an BKI senden</button>
 
             </form>

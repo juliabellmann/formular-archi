@@ -231,3 +231,8 @@ fieldset {
   color: var(--secondary);
 
 }
+
+a {
+  color: #004a99;
+  text-decoration: underline;
+}
